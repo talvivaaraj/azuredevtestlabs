@@ -15,7 +15,7 @@ Useful when adding several accounts at once, which can turn out to be both monot
 
 ### The script file
 
-[add_csv_users_to_Az_devtestlab.ps1](https://github.com/talvivaaraj/azuredevtestlabs/blob/8e05c765ac331217205ecc0460b9670b1b8448d5/add_csv_users_to_Az_devtestlab.ps1)  
+[add_csv_users_to_Az_devtestlab.ps1](https://github.com/talvivaaraj/azuredevtestlabs/blob/main/add_csv_users_to_Az_devtestlab.ps1)  
 Save to a local folder with permissions to run PowerShell Script. 
 
 

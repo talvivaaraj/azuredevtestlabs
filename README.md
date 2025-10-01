@@ -20,25 +20,25 @@ Save to a local folder with permissions to run PowerShell Script.
 
 
 ### Use cases
-1) Using default parameters (see and modify parameters in the script, parameter section)
+CASE 1) Using default parameters (see and modify parameters in the script, parameter section)
 
 ```
 ./add_csv_users_to_Az_devtestlab.ps1
 ```
 
-2) Specify CSV file from command line. Other parameters (subscription id, resource group and lab name) are as default
+CASE 2) Specify CSV file from command line. Other parameters (subscription id, resource group and lab name) are as default
 
 ```
  ./add_csv_users_to_Az_devtestlab.ps1 -file "users.csv"
 ```
 
-3) Specify CSV file and lab name. Other parameters (resource group, subscription id) as default
+CASE 3) Specify CSV file and lab name. Other parameters (resource group, subscription id) as default
 
 ```
 ./add_csv_users_to_Az_devtestlab.ps1 -file "myUsers.csv" -lab "myLab"
 ```
 
-4) Specify all parameters from command line. No default parameters will be used. 
+CASE 4) Specify all parameters from command line. No default parameters will be used. 
 
 ```
 ./add_csv_users_to_Az_devtestlab.ps1 -file "myUsers.csv" -sub "my-az-subscription-id" -rg "myResourceGroup" -lab "myLab"
